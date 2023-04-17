@@ -65,7 +65,7 @@ function App() {
   return (
     <>
     <div className="flex items-center justify-center h-screen">
-      <div className="bg-gray-100 rounded-md p-4 w-full max-w-md shadow-md">
+      <div className="bg-gray-200 rounded-md p-4 w-full max-w-md shadow-md">
         <h1 className="text-2xl font-bold text-center mb-4">Todo App</h1>
         <form onSubmit={addTask} className="flex items-center mb-4">
           <input
