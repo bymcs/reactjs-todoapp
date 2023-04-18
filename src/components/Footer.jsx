@@ -4,7 +4,7 @@ const Footer = () => {
     
     return (
         
-        <footer className="flex items-center justify-between bg-gray-100 px-4 py-2" style={{ position: "fixed", bottom: 0, left: 0, right: 0 }}>
+      <footer className="flex items-center justify-between bg-gray-100 px-4 py-2 fixed bottom-0 left-0 right-0">
         <div className="flex items-center">
         <a href="https://github.com/bymcs" className="flex items-center mr-4 text-gray-500 hover:text-gray-700">
           <DiGithubBadge className="mr-2" size={25} /> Github
